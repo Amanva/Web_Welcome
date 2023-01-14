@@ -1,0 +1,116 @@
+body {
+        background-color: #25274D;
+        font:100%/1.6 sans-serif;
+    }
+    
+ 
+    
+    .title {
+        text-align: center;
+        font-family: 'Trade Winds',  cursive;
+        font-size: 40px;
+    }
+       
+    
+    .insideback {
+        width: 1000px;
+        margin:0 auto;
+        margin-bottom:  100px;
+ background-image:
+        radial-gradient(
+          #29648A, 
+          #2E9CCA
+        );        
+
+
+    }
+    
+    .topbar {
+        width: 100%;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: #AAABB8;
+        
+    }
+    
+    .topbar ul ul {
+        display: none;
+    }
+    
+    .topbar ul li:hover > ul {
+        display: block;
+    }
+    
+    .topbar ul {
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        margin: 0; padding: 5px 10px 0 10px;
+    }
+      
+    
+    .topbar ul li {
+        float: left;
+        display: inline;
+    }
+
+    
+            .topbar ul li a {
+        display: block; padding: 20px 40px;
+ text-decoration: none;       
+ color: black; 
+      
+    }
+    
+ .topbar ul ul {
+        background: #AAABB8; border-radius: 0px; padding: 5;
+        position: absolute; top: 100%;
+    }
+   .topbar ul ul li {
+        float: none;
+        position: relative;
+    }
+    
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contactinfo {
+	  background: #AAABB8;
+	  color: black;
+	  padding: 10px 50px 10px 50px;
+	  font-size: small;
+	  text-align: center;
+      }
+      
+      .email {
+	  float: right;
+      }
+
+  .email input {
+	background: white;	
+	color: black;
+	height: 40px;
+      }
+      
+      .email button {
+	width: 70px;
+	font-weight: bold;
+	background:  #2E9CCA;
+	border: none;
+	height: 40px;
+      }
+      
+    
+      
+      .contact {
+	  float: left;
+	  text-align: left;
+	  font-style: Monaco;
+      }
